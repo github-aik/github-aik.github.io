@@ -1,0 +1,1 @@
+const c={zte:{emoji:"🌐",accent:"#3b82f6"},mindray:{emoji:"🏥",accent:"#06b6d4"},tcl:{emoji:"📺",accent:"#8b5cf6"},carestream:{emoji:"🔍",accent:"#10b981"},platform:{emoji:"⚡",accent:"#f59e0b"}};function t(e){return c[e]??{emoji:"📁",accent:"#64748b"}}export{t as p};
