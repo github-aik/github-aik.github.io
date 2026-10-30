@@ -1,15 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="施威城 — 全栈 / AI 应用开发 · 个人站点" />
-    <title>施威城 · 个人站点</title>
-    <script type="module" crossorigin src="/assets/index-G1G_yutz.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-cMac6dTb.css">
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
   </head>
-  <body>
-    <div id="app"></div>
-  </body>
+  <body></body>
 </html>
