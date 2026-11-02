@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="能力平台">
+  <!-- 与侧栏 MenuIcon / Element Plus 主题色一致，见 src/config/brand.ts -->
+  <rect width="32" height="32" rx="8" fill="#ecf5ff"/>
+  <rect x=".5" y=".5" width="31" height="31" rx="7.5" fill="none" stroke="#c6e2ff"/>
+  <svg x="5" y="5" width="22" height="22" viewBox="380 520 260 260" aria-hidden="true">
+    <path
+      fill="#409eff"
+      d="M416 736a32 32 0 0 1-27.776-47.872l128-224a32 32 0 1 1 55.552 31.744L471.168 672H608a32 32 0 0 1 27.776 47.872l-128 224a32 32 0 1 1-55.68-31.744L552.96 736z"
+    />
+  </svg>
+</svg>

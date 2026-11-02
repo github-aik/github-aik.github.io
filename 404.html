@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <title>Redirecting…</title>
     <script type="text/javascript">
-      var pathSegmentsToKeep = 0;
+      var segs = window.location.pathname.split('/').filter(function (s) { return s.length > 0; });
+      var pathSegmentsToKeep = segs[0] === 'platform' ? 1 : 0;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
